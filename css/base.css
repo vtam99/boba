@@ -1,0 +1,69 @@
+/* The CSS strategy that was used is SMACSS. Each CSS file represents a different
+   section from the SMACSS structure. In this file is the Base Styles and is where
+   the element selectors can be found. */
+
+body {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+	background-color: #dfbf9f;
+}
+
+form {
+	position: absolute;
+	top: 14%;
+	right: 15.5%;
+}
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	padding-top: 50px;
+	font-weight: 200;
+}
+
+p, h2, section div, footer, figcaption {
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+section {
+	margin-bottom: 25px;
+}
+
+p, section div {
+	line-height: 1.8;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-right: 30px;
+	padding-bottom: 20px;
+}
+
+figcaption {
+	font-size: 13px;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 a:hover {
+	color: #ac7339;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 5px;
+	font-weight: 300;
+}
+
+
+
